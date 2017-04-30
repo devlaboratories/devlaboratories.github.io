@@ -459,7 +459,11 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
 	}
 
 	body.dark.header-fixed .header-v6 .navbar-brand img.shrink-logo {
-		display: none;
+		/* updated by Martin
+		* changed display to inherit from none.
+		* this is to avoid hiding the header logo at this size
+		*/
+		display: inherit; 
 	}
 
 	/*Toggle*/
