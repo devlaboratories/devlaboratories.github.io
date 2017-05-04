@@ -1391,6 +1391,18 @@
   border-color: #e74c3c;
 }
 
+.team-v1 li > .team-img li i.fa-linkedin:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.team-v1 li > .team-img li i.fa-instagram:hover {
+  color: #000;
+  background: #fff;
+  border-color: #fff;
+}
+
 /*Team Discription*/
 .team-v1 li > h3 {
   color: #000;
